@@ -1,6 +1,6 @@
 {
   "name": "ws-bus",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "author": "",
@@ -27,7 +27,7 @@
   "scripts": {
     "test": "standard"
   },
-  "repository":{
+  "repository": {
     "type": "git",
     "url": "git://github.com/dmapper/ws-bus.git"
   }
