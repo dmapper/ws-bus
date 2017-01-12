@@ -26,5 +26,9 @@
   },
   "scripts": {
     "test": "standard"
+  },
+  "repository":{
+    "type": "git",
+    "url": "git://github.com/dmapper/ws-bus.git"
   }
 }
