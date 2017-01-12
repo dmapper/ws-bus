@@ -2,9 +2,12 @@
   "name": "ws-bus",
   "version": "0.1.6",
   "description": "",
-  "main": "lib/index.js",
+  "main": "index.js",
   "author": "",
   "license": "MIT",
+  "bin": {
+    "ws-bus": ".bin/ws-bus"
+  },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

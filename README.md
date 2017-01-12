@@ -11,7 +11,7 @@ Node PubSub Server based on WebSockets
 npm install ws-bus
 ```
 
-## Usage
+## Usage (code)
 
 Server
 ```js
@@ -38,6 +38,16 @@ client.publish('channel1', message);
 
 // client.unsubscribe('channel1')
 
+```
+
+## Usage (cli)
+
+```
+npm install ws-bus -g
+PORT=3005 ws-bus
+
+> WebSocket Bus Server
+> listening on port: 3005
 ```
 
 ## License

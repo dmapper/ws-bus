@@ -1,5 +1,5 @@
-const Client = require('./client')
-const Server = require('./server')
+const Client = require('./lib/client')
+const Server = require('./lib/server')
 
 module.exports = {
   createClient: (url, protocols, options) => new Client(url, protocols, options),
